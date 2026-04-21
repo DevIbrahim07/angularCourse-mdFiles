@@ -3,7 +3,7 @@ The CLI (Command Line Interface) creates projects, runs a dev server, and provid
 
 # Install the Angular CLI globally:
 
-npm install -g @angular/cli
+command : npm install -g @angular/cli
 
 Installing it globally makes the ng command available everywhere.
 You can also use npx without a global install.
@@ -43,3 +43,5 @@ You can add the --open flag to automatically open the app in your default browse
 
 ng serve --open
 By default the dev server runs on http://localhost:4200.
+Open that URL in your browser to see your new Angular app running.
+You should see the default Angular welcome page with the Angular logo and some links.
